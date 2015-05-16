@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Carousel
+//  Carousel2
 //
-//  Created by Mike Jacobs on 5/11/15.
+//  Created by Mike Jacobs on 5/13/15.
 //  Copyright (c) 2015 Mike Jacobs. All rights reserved.
 //
 

@@ -1,15 +1,15 @@
 //
-//  CarouselTests.swift
-//  CarouselTests
+//  Carousel2Tests.swift
+//  Carousel2Tests
 //
-//  Created by Mike Jacobs on 5/11/15.
+//  Created by Mike Jacobs on 5/13/15.
 //  Copyright (c) 2015 Mike Jacobs. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class CarouselTests: XCTestCase {
+class Carousel2Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

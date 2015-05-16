@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "041C70911B019A5D000A5768"
-               BuildableName = "Carousel.app"
-               BlueprintName = "Carousel"
-               ReferencedContainer = "container:Carousel.xcodeproj">
+               BlueprintIdentifier = "04CE575B1B03D41700B17621"
+               BuildableName = "Carousel2.app"
+               BlueprintName = "Carousel2"
+               ReferencedContainer = "container:Carousel2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "041C70A61B019A5D000A5768"
-               BuildableName = "CarouselTests.xctest"
-               BlueprintName = "CarouselTests"
-               ReferencedContainer = "container:Carousel.xcodeproj">
+               BlueprintIdentifier = "04CE57701B03D41700B17621"
+               BuildableName = "Carousel2Tests.xctest"
+               BlueprintName = "Carousel2Tests"
+               ReferencedContainer = "container:Carousel2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "041C70A61B019A5D000A5768"
-               BuildableName = "CarouselTests.xctest"
-               BlueprintName = "CarouselTests"
-               ReferencedContainer = "container:Carousel.xcodeproj">
+               BlueprintIdentifier = "04CE57701B03D41700B17621"
+               BuildableName = "Carousel2Tests.xctest"
+               BlueprintName = "Carousel2Tests"
+               ReferencedContainer = "container:Carousel2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "041C70911B019A5D000A5768"
-            BuildableName = "Carousel.app"
-            BlueprintName = "Carousel"
-            ReferencedContainer = "container:Carousel.xcodeproj">
+            BlueprintIdentifier = "04CE575B1B03D41700B17621"
+            BuildableName = "Carousel2.app"
+            BlueprintName = "Carousel2"
+            ReferencedContainer = "container:Carousel2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "041C70911B019A5D000A5768"
-            BuildableName = "Carousel.app"
-            BlueprintName = "Carousel"
-            ReferencedContainer = "container:Carousel.xcodeproj">
+            BlueprintIdentifier = "04CE575B1B03D41700B17621"
+            BuildableName = "Carousel2.app"
+            BlueprintName = "Carousel2"
+            ReferencedContainer = "container:Carousel2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "041C70911B019A5D000A5768"
-            BuildableName = "Carousel.app"
-            BlueprintName = "Carousel"
-            ReferencedContainer = "container:Carousel.xcodeproj">
+            BlueprintIdentifier = "04CE575B1B03D41700B17621"
+            BuildableName = "Carousel2.app"
+            BlueprintName = "Carousel2"
+            ReferencedContainer = "container:Carousel2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
