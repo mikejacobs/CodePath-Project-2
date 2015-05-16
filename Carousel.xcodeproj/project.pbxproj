@@ -13,6 +13,8 @@
 		041C709F1B019A5D000A5768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C709E1B019A5D000A5768 /* Images.xcassets */; };
 		041C70A21B019A5D000A5768 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C70A01B019A5D000A5768 /* LaunchScreen.xib */; };
 		041C70AE1B019A5D000A5768 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C70AD1B019A5D000A5768 /* CarouselTests.swift */; };
+		041C70B81B01A02A000A5768 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C70B71B01A02A000A5768 /* IntroViewController.swift */; };
+		04CE57841B03FD9D00B17621 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE57831B03FD9D00B17621 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		041C70A71B019A5D000A5768 /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C70AC1B019A5D000A5768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041C70AD1B019A5D000A5768 /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		041C70B71B01A02A000A5768 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		04CE57831B03FD9D00B17621 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		041C70941B019A5D000A5768 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				04CE57831B03FD9D00B17621 /* Common.swift */,
 				041C70971B019A5D000A5768 /* AppDelegate.swift */,
 				041C70991B019A5D000A5768 /* ViewController.swift */,
 				041C709B1B019A5D000A5768 /* Main.storyboard */,
+				041C70B71B01A02A000A5768 /* IntroViewController.swift */,
 				041C709E1B019A5D000A5768 /* Images.xcassets */,
 				041C70A01B019A5D000A5768 /* LaunchScreen.xib */,
 				041C70951B019A5D000A5768 /* Supporting Files */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					041C70911B019A5D000A5768 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = BFC9TNCXE9;
 					};
 					041C70A61B019A5D000A5768 = {
 						CreatedOnToolsVersion = 6.2;
@@ -212,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE57841B03FD9D00B17621 /* Common.swift in Sources */,
+				041C70B81B01A02A000A5768 /* IntroViewController.swift in Sources */,
 				041C709A1B019A5D000A5768 /* ViewController.swift in Sources */,
 				041C70981B019A5D000A5768 /* AppDelegate.swift in Sources */,
 			);
@@ -336,9 +345,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +358,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +420,7 @@
 				041C70B31B019A5D000A5768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041C70B41B019A5D000A5768 /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +429,7 @@
 				041C70B61B019A5D000A5768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
